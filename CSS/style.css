@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif;
-}
+} /*HEADER, NAV, CABEÇALHO*/
 .header {
   width: 100%;
   height: 80px;
@@ -32,27 +32,13 @@ nav {
   text-transform: uppercase;
   
 }
-
-.github a {
-  padding: 13px 29px;
-  background: white;
-  border-radius: 4px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 20px;
-  margin-right: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-}
 /*informacao inicial*/
 .info {
   text-align: center;
 }
 .texto {
   width: 100%;
-  height: 450px;
+  margin-top: 150px;
   text-transform: capitalize;
   display: flex;
   flex-direction: row;
@@ -60,7 +46,6 @@ nav {
   justify-content: center;
 }
 .texto h2 {
-  margin-bottom: 8px;
   font-size: max(50px, 5vw);
 }
 .texto p {
@@ -68,11 +53,11 @@ nav {
 }
 .btns {
   width: 100%;
+  margin-bottom: 140px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
   padding: 30px;
 }
 .btns a {
@@ -86,9 +71,9 @@ nav {
   color: white;
 }
 .btn2{
+  border: 1px solid black;
   padding: 10px ;
-  background: red;
-  color: white;
+  color: black;
 }
 .btn2 a {
   display: flex;
@@ -99,4 +84,38 @@ nav {
 .nav li a:hover {
   text-decoration: underline;
   
+}
+/*PROJETOS, CONTAINER PROJETOS*/
+.projetos {
+  background: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-projetos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-projetos img{
+  width: 100%;
+  height: 190px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sem-magin {
+  margin-left: 0;
+}
+/*scroll bar*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(255, 240, 240);
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  height: 80px;
+  background: black;
 }
