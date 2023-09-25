@@ -88,13 +88,19 @@ footer {
     
   }
   .texto-jumbtron h2 {
-    font-size:  40px;
+    font-size:  35px;
     margin-bottom: 40px;
   }
   .texto-jumbtron p {
     font-size: 16px;
     padding: 0px 15px 0px 15px;
   }
+  #h1 {
+    color: white;
+    margin-bottom: -6px;
+    font-size: 60px;
+  }
+
   #botoes {
     display: flex;
     flex-wrap: wrap;
