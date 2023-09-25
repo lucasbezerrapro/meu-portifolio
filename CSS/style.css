@@ -10,33 +10,58 @@
 /*informacao inicial*/
 #particles-js{
   height: 650px;
-  background: #262626;
+  background: #0b4df4;
 }
 .jumbroton {
   width: 100%;
   text-align: center;
   position: relative;
 }
-.texto {
+.texto-jumbtron {
   width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.texto h2 {
+.texto-jumbtron h2 {
   color: #fff;
   font-size: 70px;
 }
-
-
-.nav li a:hover {
-  text-decoration: underline;
-  
+.texto-jumbtron p {
+  font-size: 16px;
+  color: white;
+}
+.secao-projetos {
+  display: flex;
+  justify-content: space-between;
+}
+#contato a {
+  text-decoration: none;
+  color: #000;
+}
+#skills {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.btn1:hover {
+  background: #9cb5f4;
+}
+.btn2:hover {
+  background: #9cb5f4;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.barra {
+  padding: 0 150px 0 150px;
 }
 /*footer*/
 footer {
-  padding: 20px;
+  padding: 3px;
   text-align: center;
 }
 /*scroll bar*/
@@ -56,4 +81,46 @@ footer {
 .btn2:hover {
   background: black;
   color: white;
+}
+/*RESPONSIVIDADE*/
+@media screen and (max-width:450px) {
+  .jumbroton{
+    
+  }
+  .texto-jumbtron h2 {
+    font-size:  40px;
+    margin-bottom: 40px;
+  }
+  .texto-jumbtron p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  #botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .secao-projetos {
+    display: block;
+  }
+  #skills{
+    display: block;
+    text-align: center;
+  } 
+  #skills ol{
+    list-style: none;
+  }
+
+  .linguagens {
+    padding: 0 60px 0 70px;
+  }
+  .ferramentas-space {
+    padding: 0 30px 0 40px;
+  }
+  .skills-class{
+    margin-bottom: 30px;
+  }
+  .barra {
+    padding: 0 50px 0 50px;
+  }
 }
