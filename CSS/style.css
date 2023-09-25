@@ -103,6 +103,11 @@ footer {
   .secao-projetos {
     display: block;
   }
+  .projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   #skills{
     display: block;
     text-align: center;
