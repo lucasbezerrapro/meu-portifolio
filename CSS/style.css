@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: 'Exo 2', sans-serif;
 }
+html {
+  overflow-x: hidden;
+}
 /*informacao inicial*/
 #particles-js{
   height: 650px;
@@ -24,7 +27,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.texto-jumbtron h2 {
+.texto-jumbtron h1 {
   color: #fff;
   font-size: 70px;
 }
@@ -83,12 +86,12 @@ footer {
   color: white;
 }
 /*RESPONSIVIDADE*/
-@media screen and (max-width:450px) {
+@media screen and (max-width:576px) {
   .jumbroton{
-    
+    padding: 14px;
   }
-  .texto-jumbtron h2 {
-    font-size:  35px;
+  .texto-jumbtron h1 {
+    font-size:  45px;
     margin-bottom: 40px;
   }
   .texto-jumbtron p {
